@@ -23,6 +23,5 @@ public class OffersCalculator implements CalculatorType {
 
         cart.setCartTotal(cart.getCartTotal() - discount);
 
-        System.out.println("Offers Calculator - Discount: " + discount + ", Cart Total: " + cart.getCartTotal());
     }
 }
