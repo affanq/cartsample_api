@@ -13,5 +13,8 @@ The key principle followed in the project is to allow re-use and decoupling of c
 TODO: 
 - Code cleanup - Since this entire code was written in just a couple of hours, it is by no means perfect and bug free. For example, it may not contain all the checks for null or edge cases
 - Test cases - Not implemented yet
-- Client application - I was planning to create multiple clients around this code: a command line version, a traditional web UI version as well as a microservice based Docker implementation. 
+- Client application - I was planning to create multiple clients around this code: a command line version, a traditional web UI version as well as a microservice based Docker implementation. Time permitting, the core allows for those implementations very easily
 - A lot of wiring of objects can be improved using DI tools like Spring. 
+- A lot of hard-coding of values and constructs 
+- System.out.println statements all over the place. Need to be replaced with logging tools 
+- Maven cleanup 
