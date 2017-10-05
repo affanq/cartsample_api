@@ -11,7 +11,5 @@ public class CartTotalCalculator implements CalculatorType {
         cartTotal += cart.getItems().stream().mapToDouble(lineItem -> lineItem.getItem().getPrice() * lineItem.getQuantity()).sum();
 
         cart.setCartTotal(cartTotal);
-
-        System.out.println("Cart Total Calculator - Total: " + cartTotal);
     }
 }

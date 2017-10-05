@@ -21,7 +21,5 @@ public class TaxCalculator implements CalculatorType {
 
         cart.setCartTotal(cart.getCartTotal() + totalTax);
 
-        System.out.printf("Tax Calculator - Total taxes: %s, Cart Total: %s%n", totalTax, cart.getCartTotal());
-
     }
 }
